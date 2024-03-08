@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Single+Day&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(222, 218, 218)
+}
+
+#home{
+    background: url("../pictures/Annotation\ 2024-02-25\ 231539.png") rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+    min-height: 700px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+h1{
+    /* font-family: 'Roboto', sans-serif; */
+font-family: 'Single Day', cursive;
+}
+
+h2{
+font-family: 'Single Day', cursive;
+
+}
+
+.back-to-top{
+    visibility: hidden;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    z-index: 99;
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+}
+.icon-parent{
+    
+    display: flex;
+    justify-content: center;
+}
+.icon{
+    
+    background-color: antiquewhite;
+    position: relative;
+    margin: 20px;
+}
