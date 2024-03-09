@@ -37,7 +37,7 @@ signUpForm.addEventListener("submit", async(e)=>{
         alert("signed up successfuly");
         setTimeout(()=>{
          setData(result)
-         window.location.replace("/home page/index.html")
+         window.location.replace("./index.html")
         }, 2000)
      }
   }

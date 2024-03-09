@@ -5,12 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="Basket.css">
-    <title>Cart</title>
+    <link rel="stylesheet" href="contact/contact.css">
+    <title>Contact Us</title>
 </head>
 <body>
 <header>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow fixed-top py-3" id="navbar">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top py-3" id="navbar">
         <div class="container">
           <!-- <a class="navbar-brand" href="#">Navbar</a> -->
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -19,37 +19,81 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0 fs-5">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                <a class="nav-link" aria-current="page" href="./index.html">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="../Menu page/Menu.html">Menu</a>
+                <a class="nav-link" href="./Menu.html">Menu</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="../contact/contact.html">Contact</a>
+                <a class="nav-link active" href="./contact.html">Contact</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="../sign up.html">Sign in/up</a>
-              </li>  
-            </ul>
-          <!-- <h3 class="navbar-brand fw-bold mx-auto fs-4 ms-auto text-warning">SENSO</h3> -->
-            <button class="btn btb-lg btn-warning px-5 rounded-pill">+9821774435</button>
-            <a class="bag btn btn-outline-warning rounded-pill position-relative mx-2 active" href="../Basket/Basket.html">
+                <a class="nav-link" href="./sign up.html">Sign in/up</a>
+              </li>
               
+            </ul>
+
+          <!-- <h3 class="navbar-brand fw-bold mx-auto fs-4 ms-auto text-warning">SENSO</h3> -->
+            <button class="btn btb-lg btn-outline-warning px-5 rounded-pill">+9821774435</button>
+            <a class="btn btn-outline-warning rounded-pill text-light mx-2" href="./Basket.html">
               <i class="bi bi-bag"></i>
-           </a>
-           <a class="door btn btn-warning  rounded-pill text-dark mx-2" href="#">
-            <i class="bi bi-door-open"></i>
-           </a>
+            </a>
+            <a class="door btn btn-warning  rounded-pill text-dark mx-2" href="#">
+              <i class="bi bi-door-open"></i>
+             </a>
           </div>
         </div>
       </nav>
+
+      <section id="home" class="d-flex mb-5">
+        <div class="container d-flex align-items-center">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="display-2 fw-bolder text-warning text-center">Contact<span> Us</span></h1>
+                </div>
+            </div>
+        </div>
+      </section>
+    </header>
 </header>
 
 <main>
-    
+    <div class="container mt-4 shadow-lg">
+        <div class="row">
+            <div class="col-md-3">
+            </div>
+            <div class="col-md-6">
+                <h2 class="text-dark display-2">Feedback Form</h2>
+                <p class="text-whit">We would love to hear your thoughts, concerns or problems with anything so we can improve!</p>
+                <hr>
+                <form action="#">
+                    <h4>Feedback type</h4>
+                    
+                    <div class="form-group my-5">
+                      <label for="name" class="form-label">Full Name</label>
+                      <input type="text" id="name" class="form-control" required="">
+                    </div>
+                    <div class="form-group my-5">
+                        <label for="mail" class="form-label">Email</label>
+                        <input type="email" id="mail" class="form-control">
+                    </div>
+                    <div class="form-group my-5">
+                        <label for="describe" class="form-label">Describe Feedback:</label>
+                        <textarea class="form-control" id="describe" rows="4" required=""></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-warning mb-5">Submit Feedback</button>
+                </form>
+            </div>
+        </div>
+    </div>
 </main>
 
-<footer class="bg-dark">    
+<div class="d-flex justify-content-end">
+  <a href="#" class="btn btn-lg btn-warning btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+</div>
+
+<footer class="bg-dark">
+            
     <section id="footer">
       <div class="container py-3">
         <div class="row">
@@ -80,7 +124,8 @@
     </p>
   </section>
 </footer>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-    <script type="module" src="Basket.js"></script>
+    <script src="contact/contact.js"></script>
 </body>
 </html>
