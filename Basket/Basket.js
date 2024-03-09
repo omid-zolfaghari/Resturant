@@ -17,7 +17,7 @@ window.addEventListener("scroll", ()=>{
 const exit = document.querySelector(".door");
 exit.addEventListener("click", ()=>{
     removeData();
-    window.location.replace("/sign up/sign up.html")
+    window.location.replace("./sign up.html")
 })
 
 const main = document.querySelector("main")
